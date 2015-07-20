@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Donut Shop</title>
+  <link rel="stylesheet" text="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Stalemate">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+</head>
+<body>
+  <header>
+    <h1>Donut Shop</h1>
+  </header>
+  <div>
+  <h2>Welcome!</h2>
+  <h3>The best donut shop in the world</h3>
+  <p>This table dynamically generates a model to represent how many donuts are purchased from different locations of donut shops. The user can view a few default locations and even add their own if they know the min, max and average.
+  </p>
+  </div>
+  <table id="content">
+    <tr>
+    <th>Location/Time</th>
+    <th>7:00 AM</th>
+    <th>8:00 AM</th>
+    <th>9:00 AM</th>
+    <th>10:00 AM</th>
+    <th>11:00 AM</th>
+    <th>12:00 PM</th>
+    <th>1:00 PM</th>
+    <th>2:00 PM</th>
+    <th>3:00 PM</th>
+    <th>4:00 PM</th>
+    <th>5:00 PM</th>
+    <th>Total</th>
+    </tr>
+  </table>
+</br>
+  <div>
+    <form>
+      <fieldset>
+        Location Name:
+        <input id="locNameId" type="text">
+        Minimum Customers:
+        <input id="minCustId" type="text" size="17">
+        Maxiumum Customers:
+        <input id="maxCustId" type="text" size="17">
+        Average Donuts per Customer:
+        <input id="avgDonutsId" type="text" size="17">
+        </br><br/>
+        <button class="android-btn" type="button" id="button" >  Add New Or Update Donut Shop</button>
+      </fieldset>
+    </form>
+  <div>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+h1{
+  font-family: 'Stalemate', sans-serif;
+  color: #FFF0A5;
+  text-align: center;
+  font-size: 40px;
+}
+
+p{
+  position: relative;
+  top:10px;
+  left: 20px;
+}
+
+*{
+  font-family: 'Lato';
+}
+
+h3{
+  position: absolute;
+  bottom: 0px;
+  left: 70px;
+  width: 250px;
+}
+
+h3:hover{
+  transform: scale(1.5);
+}
+
+table,th{
+  border: 1px solid black;
+}
+
+div{
+  width:90%;
+  border-radius: 5px;
+}
+
+th {
+  background-color: #468966;
+  border-radius: 5px;
+}
+
+table{
+  width:90%;
+  background-color: #FFB03B;
+  border-radius: 5px;
+}
+
+td{
+  text-align: center;
+}
+
+td:hover{
+  background-color: #468966;
+}
+
+.android-btn {
+  float: center;
+  display: inline-block;
+  font-weight: 300;
+  background-color: #FFB03B;
+  color: #fff;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  text-transform: uppercase;
+  padding: 0 60px;
+  border-radius: 1px;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  cursor: pointer;
+  width: 400px;
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;;
+}
+
+.android-btn.active {
+  background: #455EDE;
+}
+
+.android-btn:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.active:before {
+  content: "";
+  position: absolute;
+  top: -32px; /* (button height - height) / 2 */
+  left: calc(50% - 50px);
+  width: 40px;
+  height: 100px;
+  background-color: #3B50CE;
+  border-radius: 100%;
+
+  -webkit-animation: scaleout 0.3s 1 ease-out;
+  animation: scaleout 0.3s 1 ease-out;
+
+  opacity: 0;
+}
+
+.ink {
+  background: none;
+  color: #1a1a1a;
+}
+
+.ink.active {
+  background: #E0E0E0;
+}
+
+.ink.active:before {
+  background: #BDBDBD;
+}
+
+/* Anmiation from http://tobiasahlin.com/spinkit/ */
+
+@-webkit-keyframes scaleout {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0.0)
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes scaleout {
+  0% {
+    opacity: 1;
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 100% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+fieldset{
+  background-color: #B64926;
+  border-radius: 5px;
+  width: 80%;
+  position: fixed;
+}
+
+body{
+  background-color: #FFF0A5;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header{
+  border-radius: 5px;
+  background-color: #8E2800;
+  width:90%;
+}
+
+input{
+  display: inline;
+  padding: .5em;
+}
+.inputs{
+  width:100%
+}
