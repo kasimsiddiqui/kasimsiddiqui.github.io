@@ -24,7 +24,7 @@ p {
 
 .main-index {
   width: 100%;
-  background-image: url(/images/HomePic.jpg);
+  background-image: url(../images/HomePic.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -248,7 +248,7 @@ p {
 
 .main-history {
   width: 100%;
-  background-image: url(/images/beerPour.jpg);
+  background-image: url(../images/beerPour.jpg);
   background-repeat: no-repeat;
   margin: 0 auto;
   background-size: cover;
@@ -340,7 +340,7 @@ p {
   margin-top: 10%;
   padding-top: 3%;
   padding-bottom: 5%;
-  background-image: url(/images/beer.gif);
+  background-image: url(../images/beer.gif);
   background-repeat: no-repeat;
 }
 
@@ -362,7 +362,7 @@ p {
 /* BEER PAGE */
 .main-beer {
   width: 100%;
-  background-image: url(/images/beerBack.jpg);
+  background-image: url(../images/beerBack.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -438,7 +438,7 @@ p {
 
 .main-randomBeer {
   width: 100%;
-  background-image: url(/images/craftBeer.jpg);
+  background-image: url(../images/craftBeer.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -517,7 +517,7 @@ p {
 /* ABOUT PAGE */
 .main-about {
   width: 100%;
-  background-image: url(/images/about.jpg);
+  background-image: url(../images/about.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -639,7 +639,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(/images/loading.gif);
+  background-image: url(../images/loading.gif);
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -651,7 +651,7 @@ p {
 
 .main-404 {
   width: 100%;
-  background-image: url(/images/empty.jpg);
+  background-image: url(.../images/empty.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -683,7 +683,7 @@ p {
 
 .main-browse {
   width: 100%;
-  background-image: url(/images/randomBeer.jpg);
+  background-image: url(../images/randomBeer.jpg);
   background-repeat: no-repeat;
   margin: 0 auto;
   background-size: cover;
