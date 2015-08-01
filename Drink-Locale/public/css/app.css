@@ -1,0 +1,782 @@
+body {
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+}
+
+.main-index {
+  width: 100%;
+  background-image: url(/images/HomePic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.headWrap {
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  z-index: 999;
+}
+
+.pageTitle {
+  position: relative;
+  float:left;
+  max-width: 30%;;
+  color: white;
+  padding-left: 3%;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6em;
+}
+
+.pageTitle:hover {
+  color: #F0A800;
+}
+
+.ale {
+  color: #F0A800;
+}
+
+.ale:hover {
+  color: white;
+}
+
+.ale2 {
+  color: #F0A800;
+}
+
+.nav {
+  position: relative;
+  float: right;
+  text-align: right;
+  padding-right: 3.0em;
+  width: 60%;
+}
+
+.navLink {
+  display: inline-block;
+  color: white;
+  padding: 1% 2% 1% 2%;
+}
+
+.underline {
+  display: inline-block;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;;
+}
+
+.underline:hover {
+  color: #F0A800;
+}
+
+.underline:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width .3s ease, background-color .3s ease;
+}
+.underline:hover:after {
+  width: 100%;
+  background: #F0A800;
+}
+
+#icons {
+  color: white;
+  text-decoration: none;
+}
+
+.contWrap {
+  position: relative;
+  display: block;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.randInner h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.randInner h1 a:hover {
+  color: #F0A800;
+  text-decoration: none;
+}
+
+.histInner h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.histInner h1 a:hover {
+  color: #F0A800;
+  text-decoration: none;
+}
+
+.searchInner h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.searchInner h1 a:hover {
+  color: #F0A800;
+  text-decoration: none;
+}
+
+.fa-beer:hover:before {
+  color: #F0A800;
+}
+
+.fa-file-text-o:hover:before {
+  color: #F0A800;
+}
+
+.fa-search:hover:before {
+  color: #F0A800;
+}
+
+.historyBeer {
+  width: 25%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  position: relative;
+  align-self: auto;
+  margin: 2%;
+  color: white;
+}
+
+.histInner {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  padding-left: 4%;
+  padding-right: 4%;
+  transform: translateY(-40%);
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.randomBeer {
+  width: 25%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 2%;
+  color: white;
+}
+
+.randInner {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  padding-left: 4%;
+  padding-right: 4%;
+  transform: translateY(-40%);
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.searchBeer {
+  width: 25%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-self: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 2%;
+  color: white;
+}
+
+.searchInner {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  padding-left: 4%;
+  padding-right: 4%;
+  transform: translateY(-40%);
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.footer {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  bottom: 0;
+}
+
+/*HISTORY */
+
+.main-history {
+  width: 100%;
+  background-image: url(/images/beerPour.jpg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.historyWrap {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 8%;
+  padding-left: 8%;
+}
+
+.historyContent {
+  position: relative;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  max-width: 100%;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.histTable {
+  width: 100%;
+}
+
+.histTH {
+  border-bottom: 1px solid #F0A800;
+  text-align: left;
+}
+
+.abvTH {
+  padding-right: 3%;
+}
+
+.historyList {
+  font-family: 'Raleway', sans-serif;
+}
+
+.historyList tr td {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-bottom: 1px solid #F0A800;
+}
+
+.historyList a {
+  text-decoration: none;
+  color: white;
+}
+
+.historyList a:hover {
+  color: #F0A800;
+}
+
+ /*AGE VERIFICATION*/
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+#ageVerWrap {
+  content: "";
+  display: block;
+  position: absolute;
+  width:100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  margin: 0;
+  z-index: 1001;
+  top: 0;
+  left: 0;
+  padding: 0;
+}
+
+#ageVer {
+  margin: 0 auto;
+  width: 50%;
+  background-color: black;
+  height: 20%;
+  border: 2px solid #F0A800;
+  margin-top: 10%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  background-image: url(/images/beer.gif);
+  background-repeat: no-repeat;
+}
+
+.ofAge {
+  color: white;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.ageBtn {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  font-size: 1.2em;
+  background-color: white;
+  border: none;
+}
+
+/* BEER PAGE */
+.main-beer {
+  width: 100%;
+  background-image: url(/images/beerBack.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.beerWrap {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.beerContent {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-bottom: 6%;
+  padding-top: 2%;
+  height: 350px;
+  overflow: scroll;
+}
+
+.beerPic {
+  max-width: 40%;
+  clear: both;
+  padding-bottom: 2%;
+  float: right;
+  padding-left: 1.5%;
+}
+
+.beerName {
+  max-width: 60%;
+}
+
+.simBtn {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  font-size: 1.25em;
+  background-color: white;
+  border: 2px solid white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  float: right;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.simBtn:hover {
+  background-color: transparent;
+  color: #F0A800;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+/* RANDOM BEER PAGE */
+
+.pickStyle {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  width: 100%;
+  text-align: left;
+  padding-left: 3%;
+}
+
+.main-randomBeer {
+  width: 100%;
+  background-image: url(/images/craftBeer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.randWrap {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  padding-top: 10%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 10%;
+}
+
+.randContent {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+.randBtn {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-size: 1.4em;
+  background-color: white;
+  border: 2px solid white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.randBtn:hover {
+  background-color: transparent;
+  color: #F0A800;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+#misc {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 30%;
+  font-size: 1.4em;
+  border: 2px solid white;
+}
+
+.randL {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  clear: right;
+  position: relative;
+}
+
+.randR {
+  width: 50%;
+  float: right;
+  display: inline-block;
+  position: relative;
+
+}
+
+/* ABOUT PAGE */
+.main-about {
+  width: 100%;
+  background-image: url(/images/about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.aboutWrap {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  padding-top: 10%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 10%;
+}
+
+.aboutContent {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding-top: 1.5%;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-bottom: 1.5%;
+}
+
+.aboutTable {
+  max-width: 100%;
+
+}
+
+.aboutTitle {
+  font-weight: 400;
+}
+
+/* PRELOADER */
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff;
+    z-index:99;
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:50%;
+/*    background-image:url(../img/status.gif);*/
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px;
+}
+
+ /*ABOUT CARDS*/
+
+.card-container {
+  cursor: pointer;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+  margin: 5%;
+  height: 150px;
+}
+
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card .back {
+  background: transparent;
+  color: #F0A800;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+.about-image{
+  height: 100%;
+   width: 100%;
+}
+
+.bio {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+}
+
+/* LOADING AJAX */
+
+.loading {
+  display: none;
+  content: "";
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/loading.gif);
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1000;
+}
+
+
+/* 404 */
+
+.main-404 {
+  width: 100%;
+  background-image: url(/images/empty.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.inner-404 {
+  position: fixed;
+  background-color: rgba(0,0,0,0.4);
+  padding-bottom: 2%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.H1-404 {
+  font-size: 14em;
+  color: white;;;
+}
+
+.H2-404 {
+  font-size: 3em;
+  color: white;
+}
+
+
+/* BROWSE */
+
+.main-browse {
+  width: 100%;
+  background-image: url(/images/randomBeer.jpg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.browseWrap {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 8%;
+  padding-left: 8%;
+}
+
+.browseContent {
+  position: relative;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  max-width: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.browseSelector {
+  background: white url(http://cdn.myfonts.net/s/images/iconsets/myfonts/header_menu_arrow.png) no-repeat right center;
+  border: 1px solid #ffffff;
+  display: block;
+  overflow: hidden;
+  width: 225px;
+}
+
+select {
+  font-family: 'Raleway', sans-serif;
+  background: transparent;
+  border: none;
+  width: 250px;
+}
+
+
+
+.browse {
+  color: white;
+  max-width: 100%;
+  width: 100%;
+  overflow: scroll;
+  height: 410px;;;
+}
+
+.browseTH {
+  padding-top: 1%;
+  border-bottom: 1px solid #F0A800;
+  text-align: left;
+}
+
+.abvTH {
+  padding-right: 3%;
+
+}
+
+.browseTable {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  width: 100%;
+}
+
+.browseTable tr td {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-bottom: 1px solid #F0A800;
+}
+
+.browseTable a {
+  text-decoration: none;
+  color: white;
+}
+
+.browseTable a:hover {
+  color: gold;
+}
+
+.browseSelector {
+  float: right;
+  margin-top: 3%;
+  margin-right: 2%;;
+}
+
+.browseStyle {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  width: 70%;
+  float: left;
+}
+
+

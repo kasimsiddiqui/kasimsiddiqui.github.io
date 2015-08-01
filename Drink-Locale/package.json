@@ -1,0 +1,24 @@
+{
+  "name": "drink-locale",
+  "version": "1.0.0",
+  "description": "Code Fellows bootcamp project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdholt/Drink-Locale.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisdholt/Drink-Locale/issues"
+  },
+  "homepage": "https://github.com/chrisdholt/Drink-Locale#readme",
+  "dependencies": {
+    "express": "^4.13.1",
+    "request": "^2.60.0"
+  }
+}

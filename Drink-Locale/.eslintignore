@@ -1,0 +1,10 @@
+LICENSE
+Procfile
+README.md
+**/api_data/
+**/node_modules/
+package.json
+public/**.html
+public/**.css
+public/images/*
+server.js

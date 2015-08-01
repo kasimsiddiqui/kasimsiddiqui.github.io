@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>LocAle</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body class="main-index">
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+    <section id="ajaxLoad">
+      <div id="loading" class="loading"></div>
+    </section>
+    <section id='ageVerWrap' class="hide">
+      <section id='ageVer'>
+        <h1 class="ofAge">I Am Of Legal Drinking Age</h1>
+        <p><button id="confirmY" class="ageBtn">YES</button>
+        <button id='confirmNot' class="ageBtn">NO</button></p>
+      </section>
+    </section>
+    <header class="headWrap">
+        <a href="index.html"><h2 class="pageTitle">Loc<span class="ale">ale</span></h2></a>
+      <section class="nav">
+        <ul>
+          <li class="navLink"><a class="underline" href="about.html">About Us</a></li>
+          <li class="navLink"><a class="underline" href="history.html">Beer History</a></li>
+          <li class="navLink"><a class="underline" href="randomBeer.html">Random Beer</a></li>
+          <li class="navLink"><a class="underline" href="browse.html">Browse</a></li>
+        </ul>
+      </section>
+    </header>
+    <section class="contWrap">
+      <section class="content">
+          <section class="historyBeer">
+            <section class="histInner">
+              <a href="history.html" class="icon"><i class="fa fa-file-text-o fa-5x" id="icons"></i></a>
+              <h1 class="randH1"><a href="history.html" class="indexA">BEER HISTORY</a></h1>
+              <p>Take a walk down memory lane! Your Beer History is the place to view all the beer's we have suggested to you. What was the name of that IPA again?</p>
+            </section>
+          </section>
+          <section class="randomBeer">
+            <section class="randInner">
+              <a href="randomBeer.html" class="icon"><i class="fa fa-beer fa-5x" id="icons"></i></a>
+              <h1 class="randH1"><a href="randomBeer.html" class="indexA">RANDOM</a></h1>
+              <p>What sounds good? Let us help! Whether you don't know what you want, or you're in the mood to try something new - we're more than happy to get you a drink.</p>
+            </section>
+          </section>
+          <section class="searchBeer">
+            <section class="searchInner">
+              <a href="browse.html" class="icon"><i class="fa fa-search fa-5x" id="icons"></i></a>
+              <h1 class="randH1"><a href="browse.html" class="indexA">BROWSE</a></h1>
+              <p>Looking for more information on a specific beer? Need to end an argument with a friend? We'll do our best to help! Browse over 800 local beers by category. </p>
+            </section>
+          </section>
+      </section>
+    </section>
+    <footer class="footer">
+      <p>“Beer, it’s the best damn drink in the world.” - Jack Nicholson</p>
+    </footer>
+    <script src="js/app.js"></script>
+    <script src="js/database.js"></script>
+    <!-- Preloader -->
+    <script type="text/javascript" src="js/listeners.js"></script>
+  </body>
+</html>
